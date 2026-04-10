@@ -3,9 +3,9 @@
   文字を書き換えて保存し、index.html をブラウザで開き直してください。
 */
 window.siteData = {
-  schoolName: "柊塾",
+  schoolName: "柊塾（ひいらぎじゅく）",
   heroEyebrow: "鶴見エリア対応",
-  heroTitle: "一人ひとりに合わせた\n“ できる”生徒を育む学習塾",
+  heroTitle: "わかる」ではなく、「解ける」をゴールに。\n“ できる”生徒を育む学習塾",
   heroText: "受験を見据えた学校の授業より先を行く基礎固め",
   heroButton: "無料体験のお申し込み",
   heroPoints: [
