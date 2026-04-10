@@ -142,7 +142,7 @@ a { color: inherit; text-decoration: none; }
   color: #0f172a;
 }
 .highlight {
-  background: linear-gradient(transparent 60%, #fde68a 60%);
+  background: linear-gradient(transparent 60%, #fde68a 65%);
 }
 
 .strong-highlight {
