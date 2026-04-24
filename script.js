@@ -48,7 +48,8 @@ if (mailLink && data.mailAddress) {
 
 document.getElementById('year').textContent = new Date().getFullYear();
 document.title = `${data.schoolName || '個人塾サンプル'} | ホームページ`;
-const fadeItems = document.querySelectorAll(".fade-in");
+
+const fadeItems = document.querySelectorAll(".fade-in, .slide-flip-in");
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
