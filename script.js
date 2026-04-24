@@ -48,3 +48,18 @@ if (mailLink && data.mailAddress) {
 
 document.getElementById('year').textContent = new Date().getFullYear();
 document.title = `${data.schoolName || '個人塾サンプル'} | ホームページ`;
+const fadeItems = document.querySelectorAll(".fade-in");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+}, {
+  threshold: 0.15
+});
+
+fadeItems.forEach((item) => {
+  observer.observe(item);
+});
